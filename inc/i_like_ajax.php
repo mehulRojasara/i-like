@@ -52,7 +52,7 @@ function i_like_ajax_btn_like()
                     wp_send_json($response);
                 }
             } else {
-                echo '<span class="warning">You already liked this post</span>';
+                esc_html_e('<span class="warning">You already liked this post</span>', 'i-like');
             }
         } else {
             // insert data if user was not react before
@@ -134,7 +134,7 @@ function i_like_ajax_btn_dislike()
                     wp_send_json($response);
                 }
             } else {
-                echo '<span class="warning">You already disliked this post</span>';
+                esc_html_e('<span class="warning">You already disliked this post</span>', 'i-like');
             }
         } else {
             // insert data if user was not react before
