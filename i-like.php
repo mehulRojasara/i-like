@@ -1,14 +1,14 @@
 <?php
 /*
  * Plugin name: I like
- * Plugin url: https://mrtangle.com/plugins/i-like/
- * Author name: MR
- * Author url: https://mrtangle.com/
+ * Plugin URI: https://mrtangle.com/plugins/i-like/
+ * Author: MR
+ * Author URI: https://mrtangle.com/
  * Version: 1.0.0
- * Description: It'll display beautifully Like and Dislike buttons under each post, also add total likes and dislikes counters.
- * Licence: GPL2
- * Licence URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt/
- * Text domain: i-like
+ * Description: A Simple way to display beautiful Like and Dislike buttons under each post, also add total likes and dislikes counters.
+ * License: GPL2
+ * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt/
+ * Text Domain: i-like
  */
 
 // If this file is called directly, abort.
