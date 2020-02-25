@@ -24,7 +24,7 @@ function i_like_dislike_buttons($content)
 
     // Make sure single post is being viewed.
     if (is_single()) {
-        $total_counts = '<div class="total-ld-counts"><span class="total-label">' . esc_html($total_label, 'i-like') . '</span>'
+        $total_counts = '<div class="total-ld-counts"><span class="total-label">' . esc_html($total_label) . '</span>'
         . '<span class="total-likes"><i class="fas fa-thumbs-up"></i><span id="i_like_count_' . esc_attr($post_id) . esc_attr($user_id) . '">' . esc_html($like_count) . '</span></span>'
         . '<span class="total-dislikes"><i class="fas fa-thumbs-down"></i><span id="i_like_dislike_count_' . esc_attr($post_id) . esc_attr($user_id) . '">' . esc_html($dislike_count) . '</span></span>'
             . '</div>';
