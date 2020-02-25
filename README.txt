@@ -14,8 +14,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 when people will visit your blog and find that useful they can react on your post without wasting time to write traditional comment. also you can monitor your post with total likes and dislikes.
 you can customize like and dislike labels as your needs, also can use only icon button.
 
-A few notes about the sections above:
-
 *   Tags - "Like System", "like", "dislike", "reactions"
 *   "Tested up to" 5.3.2
 
