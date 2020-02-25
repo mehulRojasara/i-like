@@ -18,7 +18,7 @@ function i_like_setting_structure()
         return;
     }?>
 <div class="wrap">
-   <h1 style="background-color: #23282d; color: #eee; padding: 10px;"><?=esc_html(get_admin_page_title());?></h1>
+   <h1 style="background-color: #23282d; color: #eee; padding: 10px;"><?php esc_html_e(get_admin_page_title(), 'i-like');?></h1>
    <form action="options.php" method="post">
         <?php
 settings_fields('i_like_label_settings');
