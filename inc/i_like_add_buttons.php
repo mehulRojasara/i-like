@@ -55,8 +55,8 @@ function i_like_dislike_buttons($content)
         $content .= '</div>';
         return $content;
     }else{
-		return $content;
-	}
+        return $content;
+    }
 
 }
 add_filter('the_content', 'i_like_dislike_buttons');
