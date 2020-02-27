@@ -61,3 +61,6 @@ require plugin_dir_path(__FILE__) . 'inc/i_like_plugin_settings.php';
 
 /* add buttons to post */
 require plugin_dir_path(__FILE__) . 'inc/i_like_add_buttons.php';
+
+/* add setting link to plugin page */
+require plugin_dir_path(__FILE__) . 'inc/i_like_add_setting_link.php';
